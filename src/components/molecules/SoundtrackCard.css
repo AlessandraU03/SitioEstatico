@@ -1,0 +1,7 @@
+#card_soundtrack  {
+        width: 90%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        margin: 30px 90px;
+      }

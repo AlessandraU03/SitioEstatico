@@ -1,0 +1,9 @@
+#cards_colors {
+        width: 90%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 90px;
+       
+}
