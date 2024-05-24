@@ -1,15 +1,21 @@
 import MovieCard from "../molecules/MovieCard";
 import moviesData from "../../data/moviesData";
+import CastCard from "../molecules/CastCard";
 import './SectionMovies.css'
 
 function SectionMovies(){
     return(
-             <div id="cards_section_movie">
+             <div id="card_section_movie">
             {
             moviesData.movies.map(movies =>
-                <MovieCard heading={movies.heading} subtitle={movies.subtitle} image={movies.image} description={movies.description}></MovieCard>
+                <MovieCard title={movies.title} heading={movies.heading} image={movies.image} text={movies.text} 
+                ></MovieCard>
+                
             )
         }
+        {moviesData.cast.map(cast =>
+            <CastCard subtitle={cast.subtitle} image={cast.image} text={cast.text}></CastCard>
+        )}
     </div>
         
     )

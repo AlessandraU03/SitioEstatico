@@ -1,8 +1,5 @@
-#card_section_soundtrack {
+#card_section_movie {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
   }
-  
-  

@@ -5,5 +5,13 @@
         align-items: center;
         justify-content: center;
         margin: 30px 90px;
-       
-}
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        transition: transform 0.3s ease; /* Agrega una transición suave a la propiedad de transformación */
+      }
+      
+      #cards_colors:hover {
+        transform: scale(1.05);
+      }
+      

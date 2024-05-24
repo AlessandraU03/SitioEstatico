@@ -1,0 +1,20 @@
+#cards_movie_psj {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    
+  }
+
+  #card_cast {
+    width: 30%;
+    border-radius: 20px;
+    border: 8px solid #5317de; 
+    transition: transform 0.3s ease;
+}
+
+#card_cast:hover {
+  transform: scale(1.05);
+}
+  

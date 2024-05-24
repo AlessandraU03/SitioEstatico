@@ -1,7 +1,8 @@
 import Image from "../atoms/Image";
-import Subtitle from "../atoms/Subtitle";
-import Description from "../atoms/Description";
 import Heading from "../atoms/Heading";
+import Text from "../atoms/Text";
+import Title from "../atoms/Title";
+import Subtitle from "../atoms/Subtitle";
 import './MovieCard.css'
 
 function MovieCard(props){
@@ -9,19 +10,19 @@ function MovieCard(props){
     <div>
     <div id="cards_header">
         <div>
-            <Heading heading={props.heading}></Heading>
+            <Title title={props.title}></Title>
         </div>
 
         <div>
-            <Subtitle subtitle={props.subtitle}></Subtitle>
+            <Heading heading={props.heading}></Heading>
         </div>
         </div>
 
         <div id="cards_movie">
       <Image image={props.image}></Image>
-      <Description description={props.description}></Description>
+      <Text text={props.text}></Text>
+      <Subtitle subtitle={props.subtitle}></Subtitle>
     </div>
-
    
     </div>
     

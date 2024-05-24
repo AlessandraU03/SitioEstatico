@@ -1,7 +1,8 @@
 #cards_title {
   font-family: 'Pacifico', cursive; 
-  font-size: 36px; 
-  color: #0e0e0e; 
-  text-align: center; 
+  font-size: 64px; 
+  color: #FFD700; 
+  text-align: center;
+  margin: 0px 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-  

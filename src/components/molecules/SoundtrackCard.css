@@ -1,7 +1,50 @@
-#card_soundtrack  {
-        width: 90%;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        margin: 30px 90px;
-      }
+#card_soundtrack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #a893e5;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(4,10,76,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(4,10,76,1);
+box-shadow: 10px 10px 5px 0px rgba(4,10,76,1);
+
+}
+
+.song-item {
+  background-color: #f2f2f2; 
+  border-radius: 8px; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  
+}
+
+.song-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+#card_soundtrack .songs {
+  width: 60%;
+  height: 100%;
+  padding: 30px;
+  text-align: center;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#card_soundtrack .song-item {
+  margin-bottom: 5px;
+  text-align: center; 
+}
+
+#card_soundtrack .song-duration {
+  color: #999;
+  font-size: 14px;
+  text-align: center; 
+}
+

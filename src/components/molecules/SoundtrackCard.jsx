@@ -1,20 +1,22 @@
 import Image from "../atoms/Image";
-import Title from "../atoms/Title";
-import Subtitle from "../atoms/Subtitle";
-import Description from "../atoms/Description";
 import Heading from "../atoms/Heading";
-import './SoundtrackCard.css'
+import './SoundtrackCard.css';
 
-function SoundtrackCard(props){
-  return(
-    <div>
-        <div id="card_soundtrack">
-      <Image image={props.image}></Image>
-      <Title title={props.title}></Title>
-    </div>
-    </div>
+function SoundtrackCard(props) {
+  return (
+    <div id="card_soundtrack">
+      <Image image={props.image} />
+        <Heading heading={props.heading} />
+        <div className="songs">
+          {props.songs.map((song) => (
+            <div className="song-item">
+              {song.title} {song.duration}
+            </div>
+          ))}
+        </div>
+      </div>
     
-  )
+  );
 }
 
 export default SoundtrackCard;

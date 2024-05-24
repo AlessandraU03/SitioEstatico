@@ -1,7 +1,6 @@
 import Image from "../atoms/Image";
-import Title from "../atoms/Title";
 import Subtitle from "../atoms/Subtitle";
-import Description from "../atoms/Description";
+import Text from "../atoms/Text";
 import Heading from "../atoms/Heading";
 import './ColorsCard.css'
 
@@ -12,16 +11,12 @@ function ColorsCard(props){
         <div>
             <Heading heading={props.heading}></Heading>
         </div>
-
-        <div>
-            <Subtitle subtitle={props.subtitle}></Subtitle>
-        </div>
         </div>
 
         <div id="cards_colors">
       <Image image={props.image}></Image>
-      <Title title={props.title}></Title>
-      <Description description={props.description}></Description>
+      <Subtitle subtitle={props.subtitle}></Subtitle>
+      <Text text={props.text}></Text>
     </div>
 
    

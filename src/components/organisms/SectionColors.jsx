@@ -8,7 +8,7 @@ function SectionColors(){
         <div id="cards_section_colors">
             {
             moviesData.sectionColors.map(sectionColors =>
-                <ColorsCard subtitle={sectionColors.subtitle} title={sectionColors.title} image={sectionColors.image} description={sectionColors.description}></ColorsCard>
+                <ColorsCard heading={sectionColors.heading} subtitle={sectionColors.subtitle} image={sectionColors.image} text={sectionColors.text}></ColorsCard>
             )
         }
         </div>
