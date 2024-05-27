@@ -1,4 +1,3 @@
-import React from "react";
 import Subtitle from "../atoms/Subtitle";
 import Image from "../atoms/Image";
 import Text from "../atoms/Text";
